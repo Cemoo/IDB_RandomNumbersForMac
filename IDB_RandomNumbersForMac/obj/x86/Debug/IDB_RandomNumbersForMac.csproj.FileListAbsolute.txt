@@ -1,0 +1,6 @@
+/Users/cemalbayri/Projects/IDB_RandomNumbersForMac/obj/x86/Debug/IDB_RandomNumbersForMac.csproj.CoreCompileInputs.cache
+/Users/cemalbayri/Projects/IDB_RandomNumbersForMac/bin/Debug/IDB_RandomNumbersForMac.exe
+/Users/cemalbayri/Projects/IDB_RandomNumbersForMac/bin/Debug/IDB_RandomNumbersForMac.pdb
+/Users/cemalbayri/Projects/IDB_RandomNumbersForMac/obj/x86/Debug/IDB_RandomNumbersForMac.exe
+/Users/cemalbayri/Projects/IDB_RandomNumbersForMac/obj/x86/Debug/IDB_RandomNumbersForMac.pdb
+/Users/cemalbayri/Projects/IDB_RandomNumbersForMac/obj/x86/Debug/IDB_RandomNumbersForMac.csprojResolveAssemblyReference.cache

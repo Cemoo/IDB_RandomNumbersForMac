@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{DAD8367B-41B5-419C-B667-B7A59B6979D5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IText.cs">
+    <Files>
+      <File FileName="Program.cs" Line="52" Column="10" />
+      <File FileName="IText.cs" Line="30" Column="10" />
+      <File FileName="Processor.cs" Line="22" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.IDB__RandomNumbersForMac PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
