@@ -24,7 +24,7 @@ namespace IDB_RandomNumbersForMac
 
     public class TextWrite : IText
     {
-        string textPath = "/Users/cemalbayri/Desktop/randomNumbers.txt";
+        string textPath = "/Users/erencanevren/Desktop/randomNumbers.txt";
 
         public void Write(List<string> list)
         {
@@ -46,5 +46,7 @@ namespace IDB_RandomNumbersForMac
             Console.WriteLine("This feature will be added soon");
         }
     }
+
+
 
 }

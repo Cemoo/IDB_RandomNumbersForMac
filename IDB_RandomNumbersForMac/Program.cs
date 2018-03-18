@@ -2,17 +2,22 @@
 using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using System.IO;
-
+using System.Net;
+using System.Diagnostics.Contracts;
+using Newtonsoft.Json;
 
 namespace IDB_RandomNumbersForMac
 {
     
     public class MainClass
     {
+        public List<string> chart = new List<string>();
         private const int value = 60000;
         static List<string> list = new List<string>();
         static List<string> rndList = new List<string>();
 
+        public static List<string> testArr = null;
+ 
         public static void Main(string[] args)
         {
             while (true)
@@ -26,10 +31,34 @@ namespace IDB_RandomNumbersForMac
                     List<string> randomList = GetRandomFor(value);
                     Processor pro = new Processor(CreateTextWriter(int.Parse(param)), randomList);
                     pro.Process();
+
+
+
+                    Console.WriteLine("STATISTICS!!!");
+                    Processor st = new Processor(CreateStatistic(), randomList);
+                    st.Statistics();
+                    var json = JsonConvert.SerializeObject(st.result);
+                    testArr = st.result;
+                    //foreach (var item in st.result)
+                    //{
+                    //    str = str + item + ",";
+                    //}
+                    Console.WriteLine("Press 2 for getting the chart of data");
+                    string url = "/Users/erencanevren/Desktop/CEMAL/IDB_RandomNumbersForMac/IDB_RandomNumbersForMac/chart.html";
+                    if (Convert.ToInt32(Console.ReadLine()) == 2)
+                    {
+                        System.Diagnostics.Process.Start(url);
+                    }
+
                     Console.ReadLine();
+
                 }
             }
          
+        }
+
+        public static List<string> GetArr() {
+            return testArr;
         }
 
         //Gives a writer to write numbers
@@ -50,6 +79,11 @@ namespace IDB_RandomNumbersForMac
             }
             return text;
         }
+
+        public static IStatistic CreateStatistic() {
+            return new GetStatistics();
+        }
+
 
         //Number list between 0-16
         public static List<string> ListOfNumbers()

@@ -31,15 +31,22 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IText.cs" />
     <Compile Include="Processor.cs" />
+    <Compile Include="IStatistic.cs" />
+    <Compile Include="IConvert.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="randomNumbers.txt" />
+    <None Include="chart.html" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

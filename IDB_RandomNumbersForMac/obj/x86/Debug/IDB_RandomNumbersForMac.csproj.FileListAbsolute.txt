@@ -4,3 +4,11 @@
 /Users/cemalbayri/Projects/IDB_RandomNumbersForMac/obj/x86/Debug/IDB_RandomNumbersForMac.exe
 /Users/cemalbayri/Projects/IDB_RandomNumbersForMac/obj/x86/Debug/IDB_RandomNumbersForMac.pdb
 /Users/cemalbayri/Projects/IDB_RandomNumbersForMac/obj/x86/Debug/IDB_RandomNumbersForMac.csprojResolveAssemblyReference.cache
+/Users/erencanevren/Desktop/CEMAL/IDB_RandomNumbersForMac/IDB_RandomNumbersForMac/obj/x86/Debug/IDB_RandomNumbersForMac.csproj.CoreCompileInputs.cache
+/Users/erencanevren/Desktop/CEMAL/IDB_RandomNumbersForMac/IDB_RandomNumbersForMac/bin/Debug/IDB_RandomNumbersForMac.exe
+/Users/erencanevren/Desktop/CEMAL/IDB_RandomNumbersForMac/IDB_RandomNumbersForMac/bin/Debug/IDB_RandomNumbersForMac.pdb
+/Users/erencanevren/Desktop/CEMAL/IDB_RandomNumbersForMac/IDB_RandomNumbersForMac/obj/x86/Debug/IDB_RandomNumbersForMac.exe
+/Users/erencanevren/Desktop/CEMAL/IDB_RandomNumbersForMac/IDB_RandomNumbersForMac/obj/x86/Debug/IDB_RandomNumbersForMac.pdb
+/Users/erencanevren/Desktop/CEMAL/IDB_RandomNumbersForMac/IDB_RandomNumbersForMac/bin/Debug/Newtonsoft.Json.dll
+/Users/erencanevren/Desktop/CEMAL/IDB_RandomNumbersForMac/IDB_RandomNumbersForMac/bin/Debug/Newtonsoft.Json.xml
+/Users/erencanevren/Desktop/CEMAL/IDB_RandomNumbersForMac/IDB_RandomNumbersForMac/obj/x86/Debug/IDB_RandomNumbersForMac.csprojResolveAssemblyReference.cache
