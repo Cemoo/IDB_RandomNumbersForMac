@@ -20,6 +20,7 @@ namespace IDB_RandomNumbersForMac
  
         public static void Main(string[] args)
         {
+            string a = AppDomain.CurrentDomain.BaseDirectory;
             while (true)
             {
                 Console.WriteLine("Press 0 -- Numbers write to excel \n Press 1 -- Numbers write to text");
@@ -44,7 +45,8 @@ namespace IDB_RandomNumbersForMac
                     //    str = str + item + ",";
                     //}
                     Console.WriteLine("Press 2 for getting the chart of data");
-                    string url = "/Users/erencanevren/Desktop/CEMAL/IDB_RandomNumbersForMac/IDB_RandomNumbersForMac/chart.html";
+                   // string url = "/Users/erencanevren/Desktop/CEMAL/IDB_RandomNumbersForMac/IDB_RandomNumbersForMac/chart.html";
+                    string url = AppDomain.CurrentDomain.BaseDirectory + "chart.html";
                     if (Convert.ToInt32(Console.ReadLine()) == 2)
                     {
                         System.Diagnostics.Process.Start(url);

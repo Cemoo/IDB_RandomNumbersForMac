@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{DAD8367B-41B5-419C-B667-B7A59B6979D5}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="46" Column="48" />
-      <File FileName="IText.cs" Line="53" Column="1" />
-      <File FileName="Processor.cs" Line="19" Column="10" />
-      <File FileName="IStatistic.cs" Line="60" Column="55" />
+      <File FileName="Program.cs" Line="49" Column="43" />
+      <File FileName="IText.cs" Line="28" Column="9" />
+      <File FileName="Processor.cs" Line="38" Column="41" />
+      <File FileName="IStatistic.cs" Line="82" Column="10" />
       <File FileName="IConvert.cs" Line="9" Column="49" />
-      <File FileName="chart.html" Line="40" Column="9" />
+      <File FileName="randomNumbers.txt" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
